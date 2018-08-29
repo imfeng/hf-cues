@@ -1,0 +1,208 @@
+body{
+    //background-image: url(".//style/bk.png")!important;
+    //background-image: url("./style/bk-triang.png")!important;
+    //background-color: #ffffff;
+    //background-image: url("http://www.transparenttextures.com/patterns/double-lined.png");
+background-color: #ffffff;
+background-image: url("./src/crissxcross.png");
+
+    font-family: "微軟正黑體";
+}
+#main{
+    padding: 0.5em;
+    box-shadow: 4px 4px 6px -2px rgba(20%,20%,40%,0.3);
+    margin-bottom: 7em!important;
+}
+header.nav{
+    margin-top: 6em; 
+    margin-bottom: 2em;
+}
+
+.main-content{
+    overflow: hidden;
+    word-spacing: ;
+    padding-bottom: 2em;
+}
+.main-content>[id^="intro"]{
+    margin: 1em 0;
+}
+
+
+
+
+footer{
+
+    width: 100%;
+    //height: 150px;
+    //background-color: rgba(0, 0, 0, 0.82);
+}
+.footer_top_holder {
+    display: block;
+    background-color: #222;
+}
+.footer_top {
+    padding: 72px 0 52px;
+}
+.footer_bottom{
+    padding: 1em 0;
+    background-color: #111;
+    color: #eee;
+}
+/**ADD**/
+.nav-item{
+    cursor: pointer;
+}
+.ui.list>li>ul{
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: .2em;
+}
+.ui.list>li>ul>li{
+    font-size: 15px;
+}
+.list-disc{
+    list-style-type: disc!important; 
+}
+.max-width{
+    max-width: 700px;
+}
+.absoluted{
+    position: absolute;
+}
+.left{
+    margin-right: auto;
+    left: 0;
+    float: left;
+}
+.right{
+    margin-left: auto; 
+    right: 0;
+    float: right;
+}
+.top{
+    top: 0;
+    vertical-align: top;
+}
+.bottom{
+    bottom: 0;
+    vertical-align: bottom;
+}
+.close.list .item{
+    margin-left: 3px!important;
+}
+/** Semantic-UI**/
+.extend.header{
+    margin: .5em 0!important;
+}
+.extend.header{
+    margin: 3px 0!important;
+}
+.indent.content p{
+    text-indent: 2em;
+}
+.content p,.content li{
+    line-height: 1.7!important;
+    font-size: 1.2em;
+}
+.ui.piled.segment:before, .ui.piled.segments:before{
+    box-shadow: 4px 4px 6px -2px rgba(20%,20%,40%,0.5);
+}
+
+.centering{
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+i.blue.icon.woman{
+    color: deeppink!important;
+}
+
+.dropdown.nav-holder .content{
+    display: none!important;
+}
+.dropdown.nav-holder>.text>span{
+        vertical-align: middle;
+        font-size: 1.5em!important;
+        letter-spacing: .5em!important;
+}  
+@media only screen and (max-width: 767px) {
+    .main-content{
+        padding: 0!important;
+    }
+    .content p, .content li{
+        font-size: 1em!important;
+    }
+    .nav-item.dropdown>.content{
+        display: none!important;
+    }
+    .ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.image, .ui.dropdown>.text>img{
+        height: 4em!important;
+        max-height: 4em!important;
+    }
+    .nav-item i.icon, .nav-holder i.icon{
+        font-size: 1.7em
+    }
+    .dropdown.nav-holder{
+        text-align: center;
+        border: 1px solid #ababab;
+        border-radius: 1em;
+        padding: .3em 2em;
+        width: 100%;
+        background-color: rgba(255,255,255,.7);
+        box-shadow: 2px 2px 3px rgba(0,0,0,.1);
+    }
+    .dropdown.nav-holder>i.dropdown.icon{
+        float: right;
+        margin-top: 1.8em!important;
+    }
+    .dropdown.nav-holder>.menu{
+        width: 100%!important;
+    }
+    .mob-centering{
+        text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0; 
+    }
+    .content>.extend.header{
+        margin: .7em auto!important;
+    }
+}
+@media only screen and (min-width: 768px){
+    .only-mobile{
+        display: none!important;
+    }
+    .nav-item>span{
+        display: none!important;
+    }
+    .nav-holder>i.dropdown.icon{
+        display: none;
+    }
+    .nav-holder>.text{
+        display: none!important;
+    }
+}
+
+
+/**DEBUG**/
+.bug-label{
+    padding-top: 8px!important;
+    padding-right: 18px!important;
+    font-size: 1.5em;
+}
+.ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg{
+    font-size: inherit;
+}
+.ui.grid .column+.ui.vertical.divider {
+    height: calc(20%);
+}
+.ui.vertical.divider:after, .ui.vertical.divider:before{
+    height: calc(100%);
+}
+.ui.vertical.divider{
+    top: 68%;
+}
+.ui.list .list>a.item, .ui.list>a.item{
+    color: black;
+}

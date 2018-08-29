@@ -1,0 +1,19 @@
+{
+  "name": "hf-cues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imfeng/hf-cues.git"
+  },
+  "author": "hermitf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imfeng/hf-cues/issues"
+  },
+  "homepage": "https://github.com/imfeng/hf-cues#readme"
+}
